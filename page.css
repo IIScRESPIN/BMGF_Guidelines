@@ -21,21 +21,24 @@ header {
 section h2 {
     color: #333;
     margin-bottom: 10px;
+    font-size: 24px; /* Increased font size */
 }
 
 /* Style links */
 section a {
     color: #007bff;
     text-decoration: none;
-    transition: color 0.3s ease;
+    font-size: 18px; /* Increased font size */
 }
 
 /* Add hover effect to links */
 section a:hover {
-    color: #0056b3;
+    text-decoration: underline;
 }
 
 /* Separate links with a slash */
-section span {
+section a + a:before {
+    content: " / ";
     margin: 0 5px;
+    color: #333;
 }
