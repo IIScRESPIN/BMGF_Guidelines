@@ -1,0 +1,44 @@
+/* Reset default margin and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and font family */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+/* Center align the heading */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style section headings */
+section h2 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 24px; /* Increased font size */
+}
+
+/* Style links */
+section a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 18px; /* Increased font size */
+}
+
+/* Add hover effect to links */
+section a:hover {
+    text-decoration: underline;
+}
+
+/* Separate links with a slash */
+section a + a:before {
+    content: " / ";
+    margin: 0 5px;
+    color: #333;
+}
