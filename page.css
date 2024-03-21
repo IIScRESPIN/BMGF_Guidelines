@@ -12,30 +12,30 @@ body {
 }
 
 /* Center align the heading */
-h1 {
+header {
     text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style section headings */
+section h2 {
     color: #333;
-}
-
-/* Style the list */
-ol {
-    list-style-type: decimal;
-    padding-left: 20px;
-}
-
-/* Style list items */
-li {
     margin-bottom: 10px;
 }
 
 /* Style links */
-a {
+section a {
     color: #007bff;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
-/* Change link color on hover */
-a:hover {
-    text-decoration: underline;
-    color: #0056b3; /* Darker shade of blue */
+/* Add hover effect to links */
+section a:hover {
+    color: #0056b3;
+}
+
+/* Separate links with a slash */
+section span {
+    margin: 0 5px;
 }
